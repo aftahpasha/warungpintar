@@ -1,0 +1,392 @@
+/*
+Theme Name: Warung Pintar
+Theme URI: #
+Author: aftahpasha
+Author URI: https://www.smkn1cibinong.sch.id
+Description: Theme Warung Pintar .
+Version: 1.0
+*/
+
+
+html,body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+img,video,embed{
+  max-width: 100%;
+}
+/* Sample color palette */
+:root {
+  --yellow: #fecf33;
+  --light-orange: #fdbd39;
+  --peach: #ee6723;
+}
+/* Sample text styles */
+header {
+  font-family: system-ui;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #554d56;
+}
+
+/* NAVBAR */
+
+
+.custom-logo{
+  width: 173px;
+  height: 41px;
+}
+a{
+  color:black;
+}
+a:hover{
+  font-weight: bold;
+  color: black;
+}
+.navbar-yellow{
+  color: var(--yellow);
+}
+
+.bg-yellow{
+  background-color: var(--yellow);
+}
+
+.pull-right{
+  margin-left: auto;
+}
+
+/* END NAVBAR */
+
+/* BANNER */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    background-color: #fece39;
+}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background-image: linear-gradient(-65deg, rgba(255, 233, 107, 0.2), #fece39);
+}
+
+.banner-image{
+  object-fit: cover;
+ object-position:  0px 0px;
+position: absolute;
+right: 0;
+ width: 1500px;
+ height: 520px;
+
+}
+.banner-text{
+  width: 343px;
+  height: 249px;
+  font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    padding-top: 10%;
+    margin-left:10%;
+}
+/* END BANNER */
+
+/* ABOUT */
+.Line {
+  position: relative;
+  top: 110px;
+  width:93px;
+  height: 0.1px;
+  border: solid 2px #000000;
+}
+
+.about-container{
+  margin-top: 79px;
+  margin-bottom: 79px;
+
+}
+
+h2{
+  font-weight: bold;
+}
+
+.Rectangle-3 {
+  width: 258px;
+  height: 260px;
+  border: solid 3px #fece39;
+  margin-top: 35px;
+  margin-right:0;
+  max-width: 50%;
+}
+
+.overlay-image{
+  width: 284px;
+  height: 213px;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.about-headline{
+width: 434px;
+height: 110px;
+font-size: 30px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+color: #000000;
+}
+
+.about-content{
+  width: 341px;
+ height: 80px;
+ font-size: 14px;
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #000000;
+}
+
+.about-text{
+  padding-top: 8%;
+
+}
+
+.read-more{
+  width: 84px;
+  height: 19px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f5a623;
+
+}
+
+/* END ABOUT */
+
+
+/* KENAPA */
+.kenapa-container{
+  width: 100%;
+  height: 404px;
+  background-color: #fece39;
+  padding-top: 79px;
+}
+
+.kenapa-content{
+  margin-top: 4%;
+  padding-left: 10%;
+
+}
+
+.kenapa-icons{
+  padding-bottom: 10%;
+  width: 110px;
+}
+
+.kenapa-header{
+  width: 210px;
+height: 19px;
+font-size: 20px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left
+color: #000000;
+}
+
+.fitur-container{
+  width: 100%;
+  box-sizing:content-box;
+}
+
+#fitur-image{
+  max-width: 100%;
+  width:100%;
+}
+/* END KENAPA */
+
+/* TESTI */
+.testi-container{
+  margin-top: 79px;
+}
+
+.testi-box{
+
+  width: 181px;
+  height: 181px;
+  background-color: #fed23e;
+
+}
+
+
+.testi-name{
+  font-size: 15px;
+ font-weight: bold;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #000000;
+}
+.box-container{
+  margin:90px;
+
+}
+
+.testi-subtitle{
+ height: 14px;
+ font-size: 10px;
+ font-weight: 300;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: normal;
+ color: #000000;
+}
+.testi-content{
+  width: 150px;
+  height: 98px;
+  font-size: bold;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-top: 20px;
+}
+
+#quotation{
+  width: 44px;
+  height: 94px;
+  font-family:Thounburi;
+  font-size: 72px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px #000000;
+
+}
+
+.profile-pic {
+  width: 73px;
+  height: 73px;
+  background-color: #d8d8d8;
+  border: solid 1px #979797;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.rec-outline{
+  position: absolute;
+  margin-top: 121px;
+  width: 68%;
+  height: 171px;
+  border: solid 2px #fed23e;
+
+}
+
+.Rectangle-6 {
+  width: 129px;
+  height: 50px;
+  background-color: #fff;
+  position: relative;
+  top: 45px;
+  left: 40%;
+}
+
+.previous{
+  width: 39%;
+  margin-left: 10%;
+}
+.next{
+  width: 39%;
+}
+/* END TESTI */
+.team-container{
+  margin-top: 79px;
+  max-height: 404px;
+}
+
+.team-image-container {
+    position: relative;
+    width: 100%;
+    height: 404px;
+    background-color: #fece39;
+}
+.team-image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background: rgba(254, 206, 57, 0.76);
+}
+
+.team-image{
+  object-fit: cover;
+ object-position:  0px -150px;
+position: absolute;
+right: 0;
+ width: 100%;
+ height: 404px;
+
+}
+
+.circles{
+  width: 110px;
+  height: 110px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+/* END TEAM */
+
+/* SAATNYA */
+.daftar-image  {
+  width: 180px;
+  height: 160px;
+  object-fit: cover;
+ object-position:  -50px 0px;
+ background:#fece39;
+}
+
+.thumb-after{
+  background:linear-gradient(180deg, rgba(255, 233, 107, 0.2), #fece39);
+  width: 180px;
+  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+}
+
+.daftar{
+  margin-left: 10%;
+  margin-top: 5%;
+}
