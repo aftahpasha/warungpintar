@@ -189,7 +189,7 @@ Warung Pintar</h5>
 	<div class="container testi-container">
 		<h2>SAATNYA MENJADI BAGIAN DALAM PERUBAHAN</h2>
 		<div class="row daftar">
-			<div class="rec-outline"></div>
+			<div class="rec-outline-2"></div>
 
 			<div class="col-md-4">
 				<img class="daftar-image" src="<?php bloginfo('template_directory') ?>/img/warung-pintar-illustrasi.jpg" alt="">
