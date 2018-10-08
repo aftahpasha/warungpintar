@@ -22,6 +22,9 @@
 		<link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="<?php bloginfo('template_directory'); ?>/css/bootstrap-grid.min.css" rel="stylesheet" />
 		<link href="<?php bloginfo('template_directory'); ?>/css/bootstrap-reboot.min.css" rel="stylesheet" />
+		<link href="<?php bloginfo('template_directory'); ?>/css/fonts/ionicons.min.css" rel="stylesheet" />
+
+
 		<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" />
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">

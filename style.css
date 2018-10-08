@@ -358,6 +358,10 @@ color: #000000;
 .slick-dots{
   width:88%;
 }
+.slick-dots li button {
+    color: var(--yellow);
+    /* more CSS */
+}
 /* END TESTI */
 .team-container{
   margin-top: 79px;
