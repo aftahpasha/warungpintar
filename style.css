@@ -33,6 +33,10 @@ header {
   color: #554d56;
 }
 
+
+.card{
+  border-radius: 0;
+}
 /* NAVBAR */
 
 
@@ -229,8 +233,26 @@ color: #000000;
 /* TESTI */
 .testi-container{
   margin-top: 79px;
+  height: 500px;
+  margin-left:10%;
+
+}
+.testi-line {
+  position: relative;
+  top: 110px;
+  width:150px;
+  height: 0.1px;
+  border: solid 2px #000000;
 }
 
+.rec-outline-1{
+  position: absolute;
+  margin-top: 260px;
+  left: 109px;
+  width: 80%;
+  height: 171px;
+  border: solid 2px #fed23e;
+}
 .testi-box{
 
   width: 181px;
@@ -250,10 +272,14 @@ color: #000000;
  color: #000000;
 }
 .box-container{
-  margin:90px;
+  margin-top:90px;
+  margin-bottom:90px;
+
 
 }
-
+.slick-prev:before, .slick-next:before {
+    color:var(--yellow) !important;
+}
 .testi-subtitle{
  height: 14px;
  font-size: 10px;
@@ -318,7 +344,7 @@ color: #000000;
   background-color: #fff;
   position: relative;
   top: 45px;
-  left: 40%;
+  left: 38%;
 }
 
 .previous{
@@ -327,6 +353,10 @@ color: #000000;
 }
 .next{
   width: 39%;
+}
+
+.slick-dots{
+  width:88%;
 }
 /* END TESTI */
 .team-container{
@@ -368,6 +398,9 @@ right: 0;
 /* END TEAM */
 
 /* SAATNYA */
+.saatnya-container{
+  margin-top: 79px;
+}
 .daftar-image  {
   width: 180px;
   height: 160px;
@@ -398,3 +431,153 @@ right: 0;
   border: solid 3px #fed23e;
 
 }
+
+.daftar-box{
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 178px;
+  height: 123px;
+  background-color: #fece39;
+}
+
+.daftar-heading{
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+padding-top: 10px;
+}
+.daftar-content {
+  width: 140px;
+  height: 43px;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  margin-left: 4px;
+}
+
+.link-daftar{
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #020202;
+  margin-left: 100px;
+}
+
+.Rectangle-7 {
+  width: 299px;
+  height: 50px;
+  background-color: #fff;
+  position: relative;
+  top: 45px;
+  left: 29%;
+}
+
+
+/* END SAATNYA */
+
+/* KORAN */
+.koran-container{
+  margin-top: 79px;
+}
+
+
+/* END KORAN */
+
+
+/* FOOTER */
+.footer-clean {
+  padding:50px 0;
+  background-color:#fff;
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:0px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+/* END FOOTER */

@@ -94,14 +94,17 @@ warung kamu</p>
 
 
 <!-- TESTI -->
-<div class="Line"></div>
+<div class="testi-line"></div>
 	<div class="container testi-container">
+		<div class="rec-outline-1">
+
+		</div>
 		<h2>KATA ORANG TENTANG WARUNG PINTAR</h2>
-		<div class="row box-container">
-			<div class="rec-outline"></div>
+		<div class="row box-container multiple-items ">
 
 
-			<div class="col-md-4">
+
+			<div>
 				<div class="card  bg-yellow" style="width: 221px;height:221px;">
 					<div class="profile-pic"></div>
 
@@ -112,37 +115,87 @@ warung kamu</p>
   </div>
 </div>
 </div>
-<div class="col-md-4">
+
+
+
+<div >
 	<div class="card  bg-yellow" style="width: 221px;height:221px;">
 		<div class="profile-pic"></div>
+			<div class="card-body" >
+				<h5 class="card-title testi-name">Muh.Bagus</h5>
+				<h6 class="card-subtitle testi-subtitle">Enterpreneaur</h6>
+				<p class="card-text testi-content">Such an inspiration for Indonesia to give a better life for the people.</p>
+		</div>
+	</div>
+</div>
 
-		<div class="card-body" >
+
+
+
+<div >
+	<div class="card  bg-yellow" style="width: 221px;height:221px;">
+		<div class="profile-pic"></div>
+			<div class="card-body" >
+				<h5 class="card-title testi-name">Muh.Bagus</h5>
+				<h6 class="card-subtitle testi-subtitle">Enterpreneaur</h6>
+				<p class="card-text testi-content">Such an inspiration for Indonesia to give a better life for the people.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div>
+		<div class="card  bg-yellow" style="width: 221px;height:221px;">
+			<div class="profile-pic"></div>
+
+			<div class="card-body" >
+			<h5 class="testi-name">Muh.Bagus</h5>
+			<h6 class="card-subtitle testi-subtitle">Enterpreneaur</h6>
+			<p class="card-text testi-content">Such an inspiration for Indonesia to give a better life for the people.</p>
+</div>
+</div>
+</div>
+
+
+
+<div >
+<div class="card  bg-yellow" style="width: 221px;height:221px;">
+<div class="profile-pic"></div>
+	<div class="card-body" >
 		<h5 class="card-title testi-name">Muh.Bagus</h5>
 		<h6 class="card-subtitle testi-subtitle">Enterpreneaur</h6>
 		<p class="card-text testi-content">Such an inspiration for Indonesia to give a better life for the people.</p>
 </div>
 </div>
 </div>
-<div class="col-md-4">
-	<div class="card  bg-yellow" style="width: 221px;height:221px;">
-		<div class="profile-pic"></div>
 
-		<div class="card-body" >
+
+
+
+<div >
+<div class="card  bg-yellow" style="width: 221px;height:221px;">
+<div class="profile-pic"></div>
+	<div class="card-body" >
 		<h5 class="card-title testi-name">Muh.Bagus</h5>
 		<h6 class="card-subtitle testi-subtitle">Enterpreneaur</h6>
 		<p class="card-text testi-content">Such an inspiration for Indonesia to give a better life for the people.</p>
+	</div>
 </div>
 </div>
+
+
+
 </div>
 
 <div class="Rectangle-6">
- 	<a href="#"><img src="<?php bloginfo('template_directory') ?>/img/previous.svg" class="previous" alt=""></a>
-  <a href="#"><img src="<?php bloginfo('template_directory') ?>/img/next.svg" class="next" alt=""></a>
-
-</div>
+ 	<a href="#" class="prev-arrow"><img src="<?php bloginfo('template_directory') ?>/img/previous.svg" class="previous" alt=""></a>
+  <a href="#" class="next-arrow"><img src="<?php bloginfo('template_directory') ?>/img/next.svg" class="next" alt=""></a>
 </div>
 
+
 </div>
+
 <!-- END TESTI -->
 
 <!-- TEAM -->
@@ -186,38 +239,67 @@ Warung Pintar</h5>
 
 <!-- SAATNYA -->
 <div class="Line"></div>
-	<div class="container testi-container">
+	<div class="container saatnya-container">
 		<h2>SAATNYA MENJADI BAGIAN DALAM PERUBAHAN</h2>
 		<div class="row daftar">
 			<div class="rec-outline-2"></div>
 
 			<div class="col-md-4">
 				<img class="daftar-image" src="<?php bloginfo('template_directory') ?>/img/warung-pintar-illustrasi.jpg" alt="">
-				<div class="thumb-after">
+				<div class="thumb-after"></div>
+				<div class="daftar-content">
+					<div class="daftar-box">
+						<h4 class="daftar-heading">Rekan Pintar</h4>
+						<p class="daftar-content">Ciptakan dan bangun usahamu dengan inovasi yang lebih modern.</p>
+						<a href="#" class="link-daftar">Daftar ></a>
 
+
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<img class="daftar-image" src="<?php bloginfo('template_directory') ?>/img/bisnis.jpg" alt="">
-				<div class="thumb-after">
+				<div class="thumb-after">				</div>
 
-				</div>
+					<div class="daftar-content">
+						<div class="daftar-box">
+							<h4 class="daftar-heading">Mitra Bisnis</h4>
+							<p class="daftar-content">Daftarkan bisnis retailmu dan dapatkan kesepakatan yang menjanjikan</p>
+							<a href="#" class="link-daftar">Daftar ></a>
+
+						</div>
+					</div>
 			</div>
 			<div class="col-md-4">
 				<img class="daftar-image" src="<?php bloginfo('template_directory') ?>/img/team-warung-pintar.jpg" alt="">
-				<div class="thumb-after">
+				<div class="thumb-after">						</div>
 
+					<div class="daftar-content">
+						<div class="daftar-box">
+							<h4 class="daftar-heading">Keluarga Warpin</h4>
+							<p class="daftar-content">Bergabung dengan tim untuk menciptakan perubahan dan kebaikan secara luas.</p>
+							<a href="#" class="link-daftar">Daftar ></a>
+
+
+					</div>
 				</div>
 			</div>
+			<div class="Rectangle-7">
+				<h4 style="font-weight:bold; text-align:center; padding-top:10px;">AYO BERGABUNG</h4>
+</div
 		</div>
 	</div>
-
+</div>
 
 <!-- END SAATNYA -->
+
+<!-- KORAN PINTAR -->
+<div class="Line"></div>
+	<div class="container koran-container">
+		<h2>KORAN PINTAR</h2>
+</div>
+<!-- END KORAN PINTAR -->
+
+
+<?php get_footer(); ?>
 		<!-- Load Bootstrap Javascript -->
-		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.2.1.slim.min.js"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/popper-1.11.0.min.js"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-		<?php wp_footer(); ?>
-	</body>
-</html>
